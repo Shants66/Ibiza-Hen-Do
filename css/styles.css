@@ -1,0 +1,165 @@
+body {
+  font-family: lato;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+  background: pink;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  font-family: times new roman;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+img {
+  display: grid;
+  padding: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.textimage {
+  position: relative;
+  width: 100%;
+  background-color: pink
+}
+
+.pageimage {
+  position: relative;
+  width: 95%;
+  padding: 0px;
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 4em;
+  color: #c71585;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+h2 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 3em;
+  color: #c71585;
+  text-align: center;
+  padding-top: 10px
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 1.5em;
+  text-align: left
+  color: black;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+h4 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  padding: 0px;
+}
+
+h5 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 1.2em;
+  text-align: left
+  color: black;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+ul a{
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #pink;
+    padding: 5px;
+  }
+
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
